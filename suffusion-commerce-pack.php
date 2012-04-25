@@ -3,11 +3,11 @@
  * Plugin Name: Suffusion Commerce Pack
  * Plugin URI: http://www.aquoid.com/news/plugins/suffusion-commerce-pack/
  * Description: This plugin is an add-on to the Suffusion WordPress Theme. It provides templates for common e-commerce plugins to work with Suffusion.
- * Version: 1.00
+ * Version: 1.01
  * Author: Sayontan Sinha
  * Author URI: http://mynethome.net/blog
- * License: GNU General Public License (GPL), v2 (or newer)
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * License: GNU General Public License (GPL), v3 (or newer)
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  *
  * Copyright (c) 2009 - 2010 Sayontan Sinha. All rights reserved.
  *

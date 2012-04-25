@@ -18,9 +18,10 @@ get_header();
 	<div id="content" class="prospress-content">
 		<div <?php post_class('post'); ?>>
 <?php
-	if (have_posts())
-		while (have_posts()) {
-			the_post();
+	global $pp_loop;
+	if ($pp_loop->have_posts())
+		while ($pp_loop->have_posts()) {
+			$pp_loop->the_post();
 ?>
 		<h1 class="posttitle entry-title"><?php the_title(); ?></h1>
 		<div class="prospress-content entry-content"><?php the_content(); ?></div>
@@ -34,9 +35,9 @@ get_header();
 		wp_reset_query(); //reset query to allow pagination and avoid possible conflicts
 		$pp_loop = new WP_Query(array('post_type' => $market->name(), 'post_status' => 'publish', 'paged' => $paged));
 		$wp_query = $pp_loop; //substitute prospress query
-		if (have_posts()) {
-			while (have_posts()) {
-				the_post();
+		if ($pp_loop->have_posts()) {
+			while ($pp_loop->have_posts()) {
+				$pp_loop->the_post();
 ?>
 
 		<div class="pp-post">

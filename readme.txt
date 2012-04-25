@@ -1,9 +1,9 @@
 === Suffusion Commerce Pack ===
 Contributors: sayontan
-Donate link: http://aquoid.com/news/plugins/suffsion-commerce-pack/
+Donate link: http://aquoid.com/news/plugins/suffusion-commerce-pack/
 Tags: ecommerce, suffusion, jigoshop, prospress
 Requires at least: WP 3.1
-Tested up to: WP 3.2.1
+Tested up to: WP 3.3.2
 Stable tag: trunk
 
 A plugin that provides template support for common e-commerce plugins in the <a href='http://wordpress.org/extend/themes/suffusion'>Suffusion</a> theme.
@@ -57,6 +57,10 @@ JQuery improperly, then there might be issues getting the plugin to work. This i
 is a problem with the plugin that is improperly including JQuery.
 
 == Changelog ==
+
+= 1.01 =
+
+*	Prospress had a compatibility issue with WP 3.3.1. This has been addressed.
 
 = 1.00 =
 
