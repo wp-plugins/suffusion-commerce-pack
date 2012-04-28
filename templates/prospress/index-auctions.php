@@ -18,10 +18,9 @@ get_header();
 	<div id="content" class="prospress-content">
 		<div <?php post_class('post'); ?>>
 <?php
-	global $pp_loop;
-	if ($pp_loop->have_posts())
-		while ($pp_loop->have_posts()) {
-			$pp_loop->the_post();
+	if (have_posts())
+		while (have_posts()) {
+			the_post();
 ?>
 		<h1 class="posttitle entry-title"><?php the_title(); ?></h1>
 		<div class="prospress-content entry-content"><?php the_content(); ?></div>

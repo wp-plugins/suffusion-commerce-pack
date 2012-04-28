@@ -58,6 +58,10 @@ is a problem with the plugin that is improperly including JQuery.
 
 == Changelog ==
 
+= 1.02 =
+
+*	Quashed yet another bug with the Prospress module for the auctions page.
+
 = 1.01 =
 
 *	Prospress had a compatibility issue with WP 3.3.1. This has been addressed.
