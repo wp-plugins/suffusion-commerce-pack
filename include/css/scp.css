@@ -121,7 +121,7 @@ Index & Single Page Layouts
 
 .photonique .pp-post, .photonique .bid-container { border-color: #444; }
 
-/* Jigoshop */
+/* Jigoshop / WooCommerce */
 div.product div.summary { width: 280px; }
 .comment-text .description { float: none; margin: auto; text-transform: none; }
 .products-wrapper { text-align: center; }
@@ -182,7 +182,8 @@ div.product p.price {
 .products .sale .price del { margin: 0; }
 .products .sale .price ins { text-decoration: none; }
 
-.jigoshop a.button, .jigoshop button.button, .jigoshop input.button, .jigoshop #review_form #submit {
+.jigoshop a.button, .jigoshop button.button, .jigoshop input.button, .jigoshop #review_form #submit,
+.woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #review_form #submit {
 	float: none;
 	margin: 0 auto;
 	display: inline-block;
@@ -249,88 +250,151 @@ form .form-row input.input-text, #content .form-row input.input-text, form .form
 ul.cart_list li, ul.product_list_widget li { background: none; padding-left: 0; }
 
 .light-theme-gray-1 div.product p.price:before { border-color: transparent transparent transparent #cccccc; }
-.light-theme-gray-1 div.product p.price, .light-theme-gray-1 .products li .price { background-color: #cccccc; color: #444; }
+.light-theme-gray-1 div.product p.price, .light-theme-gray-1 .products li .price,
+.woocommerce-page.light-theme-gray-1 #content div.product p.price, .woocommerce-page.light-theme-gray-1 #content .products li .price {
+	background-color: #cccccc;
+	color: #444;
+}
 .light-theme-gray-1 .products li .price:after { border-color: #cccccc transparent #cccccc #cccccc; }
 .jigoshop.light-theme-gray-1 a.button, .jigoshop.light-theme-gray-1 button.button, .jigoshop.light-theme-gray-1 input.button, .jigoshop.light-theme-gray-1 #review_form #submit,
+.woocommerce-page.light-theme-gray-1 a.button, .woocommerce-page.light-theme-gray-1 button.button, .woocommerce-page.light-theme-gray-1 input.button, .woocommerce-page.light-theme-gray-1 #review_form #submit,
+.light-theme-gray-1 #respond input#submit, .light-theme-gray-1 #content input.button,
 .light-theme-gray-1 .quantity input.plus, .light-theme-gray-1 .quantity input.minus,
-.jigoshop.light-theme-gray-1 .button-alt, .jigoshop.light-theme-gray-1 .button-alt:hover, .light-theme-gray-1 div.product #tabs ul.tabs li.active a {
+.jigoshop.light-theme-gray-1 .button-alt, .jigoshop.light-theme-gray-1 .button-alt:hover,
+.woocommerce-page.light-theme-gray-1 .button-alt, .woocommerce-page.light-theme-gray-1 .button-alt:hover,
+.light-theme-gray-1 div.product #tabs ul.tabs li.active a {
 	background: #a5a7aa url(../images/bg-gray-1.png) repeat-x top left;
 	border: 1px solid #ccc;
 	color: #444;
 }
 
 .light-theme-gray-2 div.product p.price:before { border-color: transparent transparent transparent #787878; }
-.light-theme-gray-2 div.product p.price, .light-theme-gray-2 .products li .price { background-color: #787878; color: #eee; }
+.light-theme-gray-2 div.product p.price, .light-theme-gray-2 .products li .price,
+.woocommerce-page.light-theme-gray-2 #content div.product p.price, .woocommerce-page.light-theme-gray-2 #content .products li .price {
+	background-color: #787878;
+	color: #eee;
+}
 .light-theme-gray-2 .products li .price:after { border-color: #787878 transparent #787878 #787878; }
 .jigoshop.light-theme-gray-2 a.button, .jigoshop.light-theme-gray-2 button.button, .jigoshop.light-theme-gray-2 input.button, .jigoshop.light-theme-gray-2 #review_form #submit,
+.woocommerce-page.light-theme-gray-2 a.button, .woocommerce-page.light-theme-gray-2 button.button, .woocommerce-page.light-theme-gray-2 input.button, .woocommerce-page.light-theme-gray-2 #review_form #submit,
+.light-theme-gray-2 #respond input#submit, .light-theme-gray-2 #content input.button,
 .light-theme-gray-2 .quantity input.plus, .light-theme-gray-2 .quantity input.minus,
-.jigoshop.light-theme-gray-2 .button-alt, .jigoshop.light-theme-gray-2 .button-alt:hover, .light-theme-gray-2 div.product #tabs ul.tabs li.active a {
+.woocommerce-page.light-theme-gray-2 .button-alt, .woocommerce-page.light-theme-gray-2 .button-alt:hover,
+.light-theme-gray-2 div.product #tabs ul.tabs li.active a {
 	background: #636466 url(../images/bg-gray-2.png) repeat-x top left;
 	border: 1px solid #ccc;
 	color: #eee;
 }
 
 .light-theme-green div.product p.price:before { border-color: transparent transparent transparent #528f6c; }
-.light-theme-green div.product p.price, .light-theme-green .products li .price { background-color: #528f6c; color: #fff; }
+.light-theme-green div.product p.price, .light-theme-green .products li .price,
+.woocommerce-page.light-theme-green #content div.product p.price, .woocommerce-page.light-theme-green #content .products li .price {
+	background-color: #528f6c;
+	color: #fff;
+}
 .light-theme-green .products li .price:after { border-color: #528f6c transparent #528f6c #528f6c; }
 .jigoshop.light-theme-green a.button, .jigoshop.light-theme-green button.button, .jigoshop.light-theme-green input.button, .jigoshop.light-theme-green #review_form #submit,
+.woocommerce-page.light-theme-green a.button, .woocommerce-page.light-theme-green button.button, .woocommerce-page.light-theme-green input.button, .woocommerce-page.light-theme-green #review_form #submit,
+.light-theme-green #respond input#submit, .light-theme-green #content input.button,
 .light-theme-green .quantity input.plus, .light-theme-green .quantity input.minus,
-.jigoshop.light-theme-green .button-alt, .jigoshop.light-theme-green .button-alt:hover, .light-theme-green div.product #tabs ul.tabs li.active a {
+.jigoshop.light-theme-green .button-alt, .jigoshop.light-theme-green .button-alt:hover,
+.woocommerce-page.light-theme-green .button-alt, .woocommerce-page.light-theme-green .button-alt:hover,
+.light-theme-green div.product #tabs ul.tabs li.active a {
 	background: #528f6c url(../images/bg_green.png) repeat-x top left;
 	border: 1px solid #ccc;
 	color: #fff;
 }
 
 .light-theme-orange div.product p.price:before { border-color: transparent transparent transparent #d05e0b; }
-.light-theme-orange div.product p.price, .light-theme-orange .products li .price { background-color: #d05e0b; color: #fff; }
+.light-theme-orange div.product p.price, .light-theme-orange .products li .price,
+.woocommerce-page.light-theme-orange #content div.product p.price, .woocommerce-page.light-theme-orange #content .products li .price {
+	background-color: #d05e0b;
+	color: #fff;
+}
 .light-theme-orange .products li .price:after { border-color: #d05e0b transparent #d05e0b #d05e0b; }
 .jigoshop.light-theme-orange a.button, .jigoshop.light-theme-orange button.button, .jigoshop.light-theme-orange input.button, .jigoshop.light-theme-orange #review_form #submit,
+.woocommerce-page.light-theme-orange a.button, .woocommerce-page.light-theme-orange button.button, .woocommerce-page.light-theme-orange input.button, .woocommerce-page.light-theme-orange #review_form #submit,
+.light-theme-orange #respond input#submit, .light-theme-orange #content input.button,
 .light-theme-orange .quantity input.plus, .light-theme-orange .quantity input.minus,
-.jigoshop.light-theme-orange .button-alt, .jigoshop.light-theme-orange .button-alt:hover, .light-theme-orange div.product #tabs ul.tabs li.active a {
+.jigoshop.light-theme-orange .button-alt, .jigoshop.light-theme-orange .button-alt:hover,
+.woocommerce-page.light-theme-orange .button-alt, .woocommerce-page.light-theme-orange .button-alt:hover,
+.light-theme-orange div.product #tabs ul.tabs li.active a {
 	background: #f6ac3d url(../images/bg-orange.png) repeat-x top left;
 	border: 1px solid #ccc;
 	color: #fff;
 }
 
 .light-theme-pale-blue div.product p.price:before { border-color: transparent transparent transparent #97caff; }
-.light-theme-pale-blue div.product p.price, .light-theme-pale-blue .products li .price { background-color: #97caff; color: #222; }
+.light-theme-pale-blue div.product p.price, .light-theme-pale-blue .products li .price,
+.woocommerce-page.light-theme-pale-blue #content div.product p.price, .woocommerce-page.light-theme-pale-blue #content .products li .price {
+	background-color: #97caff;
+	color: #222;
+}
 .light-theme-pale-blue .products li .price:after { border-color: #97caff transparent #97caff #97caff; }
 .jigoshop.light-theme-pale-blue a.button, .jigoshop.light-theme-pale-blue button.button, .jigoshop.light-theme-pale-blue input.button, .jigoshop.light-theme-pale-blue #review_form #submit,
+.woocommerce-page.light-theme-pale-blue a.button, .woocommerce-page.light-theme-pale-blue button.button, .woocommerce-page.light-theme-pale-blue input.button, .woocommerce-page.light-theme-pale-blue #review_form #submit,
+.light-theme-pale-blue #respond input#submit, .light-theme-pale-blue #content input.button,
 .light-theme-pale-blue .quantity input.plus, .light-theme-pale-blue .quantity input.minus,
-.jigoshop.light-theme-pale-blue .button-alt, .jigoshop.light-theme-pale-blue .button-alt:hover, .light-theme-pale-blue div.product #tabs ul.tabs li.active a {
+.jigoshop.light-theme-pale-blue .button-alt, .jigoshop.light-theme-pale-blue .button-alt:hover,
+.woocommerce-page.light-theme-pale-blue .button-alt, .woocommerce-page.light-theme-pale-blue .button-alt:hover,
+.light-theme-pale-blue div.product #tabs ul.tabs li.active a {
 	background: #97caff url(../images/menu-light.jpg) repeat-x top left;
 	border: 1px solid #333;
 	color: #444;
 }
 
 .light-theme-purple div.product p.price:before { border-color: transparent transparent transparent #af0a4f; }
-.light-theme-purple div.product p.price, .light-theme-purple .products li .price { background-color: #af0a4f; color: #fff; }
+.light-theme-purple div.product p.price, .light-theme-purple .products li .price,
+.woocommerce-page.light-theme-purple #content div.product p.price, .woocommerce-page.light-theme-purple #content .products li .price {
+	background-color: #af0a4f;
+	color: #fff;
+}
 .light-theme-purple .products li .price:after { border-color: #af0a4f transparent #af0a4f #af0a4f; }
 .jigoshop.light-theme-purple a.button, .jigoshop.light-theme-purple button.button, .jigoshop.light-theme-purple input.button, .jigoshop.light-theme-purple #review_form #submit,
+.woocommerce-page.light-theme-purple a.button, .woocommerce-page.light-theme-purple button.button, .woocommerce-page.light-theme-purple input.button, .woocommerce-page.light-theme-purple #review_form #submit,
+.light-theme-purple #respond input#submit, .light-theme-purple #content input.button,
 .light-theme-purple .quantity input.plus, .light-theme-purple .quantity input.minus,
-.jigoshop.light-theme-purple .button-alt, .jigoshop.light-theme-purple .button-alt:hover, .light-theme-purple div.product #tabs ul.tabs li.active a {
+.jigoshop.light-theme-purple .button-alt, .jigoshop.light-theme-purple .button-alt:hover,
+.woocommerce-page.light-theme-purple .button-alt, .woocommerce-page.light-theme-purple .button-alt:hover,
+.light-theme-purple div.product #tabs ul.tabs li.active a {
 	background: #d785a7 url(../images/bg-purple.png) repeat-x top left;
 	border: 1px solid #ccc;
 	color: #fff;
 }
 
 .light-theme-red div.product p.price:before { border-color: transparent transparent transparent #8a1717; }
-.light-theme-red div.product p.price, .light-theme-red .products li .price { background-color: #8a1717; color: #fff; }
+.light-theme-red div.product p.price, .light-theme-red .products li .price,
+.woocommerce-page.light-theme-red #content div.product p.price, .woocommerce-page.light-theme-red #content .products li .price {
+	background-color: #8a1717;
+	color: #fff;
+}
 .light-theme-red .products li .price:after { border-color: #8a1717 transparent #8a1717 #8a1717; }
 .jigoshop.light-theme-red a.button, .jigoshop.light-theme-red button.button, .jigoshop.light-theme-red input.button, .jigoshop.light-theme-red #review_form #submit,
+.woocommerce-page.light-theme-red a.button, .woocommerce-page.light-theme-red button.button, .woocommerce-page.light-theme-red input.button, .woocommerce-page.light-theme-red #review_form #submit,
+.light-theme-red #respond input#submit, .light-theme-red #content input.button,
 .light-theme-red .quantity input.plus, .light-theme-red .quantity input.minus,
-.jigoshop.light-theme-red .button-alt, .jigoshop.light-theme-red .button-alt:hover, .light-theme-red div.product #tabs ul.tabs li.active a {
+.jigoshop.light-theme-red .button-alt, .jigoshop.light-theme-red .button-alt:hover,
+.woocommerce-page.light-theme-red .button-alt, .woocommerce-page.light-theme-red .button-alt:hover,
+.light-theme-red div.product #tabs ul.tabs li.active a {
 	background: #ef0506 url(../images/bg-red.png) repeat-x top left;
 	border: 1px solid #ccc;
 	color: #fff;
 }
 
 .light-theme-royal-blue div.product p.price:before { border-color: transparent transparent transparent #227ad1; }
-.light-theme-royal-blue div.product p.price, .light-theme-royal-blue .products li .price { background-color: #227ad1; color: #fff; }
+.light-theme-royal-blue div.product p.price, .light-theme-royal-blue .products li .price,
+.woocommerce-page.light-theme-royal-blue #content div.product p.price, .woocommerce-page.light-theme-royal-blue #content .products li .price {
+	background-color: #227ad1;
+	color: #fff;
+}
 .light-theme-royal-blue .products li .price:after { border-color: #227ad1 transparent #227ad1 #227ad1; }
 .jigoshop.light-theme-royal-blue a.button, .jigoshop.light-theme-royal-blue button.button, .jigoshop.light-theme-royal-blue input.button, .jigoshop.light-theme-royal-blue #review_form #submit,
+.woocommerce-page.light-theme-royal-blue a.button, .woocommerce-page.light-theme-royal-blue button.button, .woocommerce-page.light-theme-royal-blue input.button, .woocommerce-page.light-theme-royal-blue #review_form #submit,
+.light-theme-royal-blue #respond input#submit, .light-theme-royal-blue #content input.button,
 .light-theme-royal-blue .quantity input.plus, .light-theme-royal-blue .quantity input.minus,
-.jigoshop.light-theme-royal-blue .button-alt, .jigoshop.light-theme-royal-blue .button-alt:hover, .light-theme-royal-blue div.product #tabs ul.tabs li.active a {
+.jigoshop.light-theme-royal-blue .button-alt, .jigoshop.light-theme-royal-blue .button-alt:hover,
+.woocommerce-page.light-theme-royal-blue .button-alt, .woocommerce-page.light-theme-royal-blue .button-alt:hover,
+.light-theme-royal-blue div.product #tabs ul.tabs li.active a {
 	background: #0052a4 url(../images/menu-dark.jpg) repeat-x top left;
 	border: 1px solid #ccc;
 	color: #fff;
@@ -338,20 +402,36 @@ ul.cart_list li, ul.product_list_widget li { background: none; padding-left: 0; 
 
 body.jigoshop.minima { line-height: 1.5; }
 .minima div.product p.price:before { border-color: transparent transparent transparent #444; }
-.minima div.product p.price, .minima .products li .price { background-color: #444; color: #fff; }
+.minima div.product p.price, .minima .products li .price,
+.woocommerce-page.minima #content div.product p.price, .woocommerce-page.minima #content .products li .price {
+	background-color: #444;
+	color: #fff;
+}
 .minima .products li .price:after { border-color: #444 transparent #444 #444; }
 .jigoshop.minima a.button, .jigoshop.minima button.button, .jigoshop.minima input.button, .jigoshop.minima #review_form #submit,
+.woocommerce-page.minima a.button, .woocommerce-page.minima button.button, .woocommerce-page.minima input.button, .woocommerce-page.minima #review_form #submit,
+.minima #respond input#submit, .minima #content input.button,
 .minima .quantity input.plus, .minima .quantity input.minus,
-.jigoshop.minima .button-alt, .jigoshop.minima .button-alt:hover, .minima div.product #tabs ul.tabs li.active a {
+.jigoshop.minima .button-alt, .jigoshop.minima .button-alt:hover,
+.woocommerce-page.minima .button-alt, .woocommerce-page.minima .button-alt:hover,
+.minima div.product #tabs ul.tabs li.active a {
 	background: #444 repeat-x top left;
 	border: 1px solid #333;
 }
-.jigoshop.minima .button-alt, .jigoshop.minima .button-alt:hover { color: #eee; }
+.jigoshop.minima .button-alt, .jigoshop.minima .button-alt:hover,
+.woocommerce-page.minima .button-alt, .woocommerce-page.minima .button-alt:hover {
+	color: #eee;
+}
 
 .dark-style div.product p.price:after { background-color: #000; }
 .dark-style .quantity input.qty, .dark-style .quantity input.plus, .dark-style .quantity input.minus,
 .jigoshop.dark-style a.button, .jigoshop.dark-style button.button, .jigoshop.dark-style input.button, .jigoshop.dark-style #review_form #submit,
-.jigoshop.dark-style .button-alt, .jigoshop.dark-style .button-alt:hover { border-color: #333; }
+.woocommerce-page.dark-style a.button, .woocommerce-page.dark-style button.button, .woocommerce-page.dark-style input.button, .woocommerce-page.dark-style #review_form #submit,
+.dark-style #respond input#submit, .dark-style #content input.button,
+.jigoshop.dark-style .button-alt, .jigoshop.dark-style .button-alt:hover,
+.woocommerce-page.dark-style .button-alt, .woocommerce-page.dark-style .button-alt:hover {
+	border-color: #333;
+}
 .dark-style div.product #tabs .panel, .dark-style table.shop_table td { border-color: #333; }
 .dark-style #reviews #comments ol.commentlist li .comment-text { border-color: #333; }
 .dark-style .cart-collaterals .cart_totals table tr th, .cart-collaterals .cart_totals table tr td { border-color: #333; }
@@ -359,26 +439,43 @@ body.jigoshop.minima { line-height: 1.5; }
 .dark-style #payment div.payment_box:after { border-color: transparent transparent #333; }
 .dark-style #payment div.form-row { border-color: #333; }
 
-.jigoshop div.product #tabs ul.tabs li.active a { border-color: transparent; }
+.jigoshop div.product #tabs ul.tabs li.active a,
+.woocommerce-page div.product #tabs ul.tabs li.active a {
+	border-color: transparent;
+}
 
 .photonique div.product p.price:after { background-color: #000; }
 .photonique div.product #tabs .panel, .photonique table.shop_table td { border-color: #333; }
 .photonique #reviews #comments ol.commentlist li .comment-text { border-color: #333; }
 
 .photonique div.product p.price:before { border-color: transparent transparent transparent #222; }
-.photonique div.product p.price, .photonique .products li .price { background-color: #222; color: #0af; }
+.photonique div.product p.price, .photonique .products li .price,
+.woocommerce-page.photonique #content div.product p.price, .woocommerce-page.photonique #content .products li .price {
+	background-color: #222;
+	color: #0af;
+}
 .photonique .products li .price:after { border-color: #222 transparent #222 #222; }
 .jigoshop.photonique a.button, .jigoshop.photonique button.button, .jigoshop.photonique input.button, .jigoshop.photonique #review_form #submit,
+.woocommerce-page.photonique a.button, .woocommerce-page.photonique button.button, .woocommerce-page.photonique input.button, .woocommerce-page.photonique #review_form #submit,
+.photonique #respond input#submit, .photonique #content input.button,
 .photonique .quantity input.plus, .photonique .quantity input.minus,
-.jigoshop.photonique .button-alt, .jigoshop.photonique .button-alt:hover, .photonique div.product #tabs ul.tabs li.active a {
+.jigoshop.photonique .button-alt, .jigoshop.photonique .button-alt:hover,
+.woocommerce-page.photonique .button-alt, .woocommerce-page.photonique .button-alt:hover,
+.photonique div.product #tabs ul.tabs li.active a {
 	background: url(../images/bg-black.png) #111 repeat-x top left;
 	border: 1px solid #333;
 }
 .photonique div.product #tabs ul.tabs a { color: #bbb; }
 .photonique div.product #tabs ul.tabs a:hover, .photonique div.product #tabs ul.tabs li.active a { color: #0af; }
 
-.jigoshop.photonique .button-alt { color: #bbb; }
-.jigoshop.photonique .button-alt:hover { color: #0af; }
+.jigoshop.photonique .button-alt,
+.woocommerce-page.photonique .button-alt {
+	color: #bbb;
+}
+.jigoshop.photonique .button-alt:hover,
+.woocommerce-page.photonique .button-alt:hover {
+	color: #0af;
+}
 .photonique .quantity input.qty { border-color: #333; }
 .photonique .quantity input.plus, .photonique .quantity input.minus { color: #bbb; }
 .photonique .quantity input.plus:hover, .photonique .quantity input.minus:hover { color: #0af; }
@@ -392,3 +489,35 @@ body.jigoshop.minima { line-height: 1.5; }
 .photonique #payment div.payment_box:after { border-color: transparent transparent #333; }
 .photonique #payment div.form-row { border-color: #333; }
 
+.woocommerce-page #content div.product p.price {
+	font-size: inherit;
+}
+.dark-style .woocommerce_message, .dark-style .woocommerce_info, .dark-style .woocommerce_error {
+	background: #000;
+	text-shadow: none;
+	border-radius: 5px;
+	border: 1px solid #555;
+}
+.photonique .woocommerce_message, .photonique .woocommerce_info, .photonique .woocommerce_error {
+	background: #000;
+	text-shadow: none;
+	border-radius: 5px;
+	border: 1px solid #333;
+}
+.woocommerce-page div.product .woocommerce_tabs ul.tabs li a, .woocommerce-page #content div.product .woocommerce_tabs ul.tabs li a,
+.woocommerce-page div.product .woocommerce_tabs ul.tabs li.active a, .woocommerce-page #content div.product .woocommerce_tabs ul.tabs li.active a,
+.woocommerce-page span.onsale, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit,
+.woocommerce-page #content input.button, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt,
+.woocommerce-page #respond input#submit.alt, .woocommerce-page #content input.button.alt, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover,
+.woocommerce-page input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page #content input.button.alt:hover,
+.woocommerce-page .quantity .plus, .woocommerce-page #content .quantity .plus, .woocommerce-page .quantity .minus, .woocommerce-page #content .quantity .minus,
+.woocommerce-page #payment div.payment_box, .woocommerce-page div.product .woocommerce_tabs ul.tabs li a, .woocommerce-page #content div.product .woocommerce_tabs ul.tabs li a,
+.woocommerce-page div.product .woocommerce_tabs ul.tabs li.active a, .woocommerce-page #content div.product .woocommerce_tabs ul.tabs li.active a,
+.woocommerce-page span.onsale, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit,
+.woocommerce-page #content input.button, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt,
+.woocommerce-page #respond input#submit.alt, .woocommerce-page #content input.button.alt, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover,
+.woocommerce-page input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page #content input.button.alt:hover,
+.woocommerce-page .quantity .plus, .woocommerce-page #content .quantity .plus, .woocommerce-page .quantity .minus, .woocommerce-page #content .quantity .minus,
+.woocommerce-page #payment div.payment_box {
+	text-shadow: none;
+}

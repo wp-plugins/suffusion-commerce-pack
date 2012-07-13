@@ -1,10 +1,11 @@
 === Suffusion Commerce Pack ===
 Contributors: sayontan
 Donate link: http://aquoid.com/news/plugins/suffusion-commerce-pack/
-Tags: ecommerce, suffusion, jigoshop, prospress
+Tags: ecommerce, suffusion, jigoshop, prospress, woocommerce
 Requires at least: WP 3.1
-Tested up to: WP 3.3.2
+Tested up to: WP 3.4.1
 Stable tag: trunk
+License: GPL v3 or later
 
 A plugin that provides template support for common e-commerce plugins in the <a href='http://wordpress.org/extend/themes/suffusion'>Suffusion</a> theme.
 
@@ -16,9 +17,10 @@ is to deliver any template and stylesheet modifications that are needed to get t
 Currently the following e-commerce plugins are supported:
 
 *	<a href='http://wordpress.org/extend/plugins/jigoshop/'>Jigoshop</a>
+*	<a href='http://wordpress.org/extend/plugins/woocommerce/'>WooCommerce</a>
 *	<a href='http://wordpress.org/extend/plugins/prospress/'>Prospress</a>
 
-Support for more plugins will be added in the near future. The ones on my radar at this point are WooCommerce and WP-ecommerce.
+Support for more plugins will be added in the near future. The one on my radar at this point is WP-ecommerce.
 
 == Installation ==
 
@@ -57,6 +59,10 @@ JQuery improperly, then there might be issues getting the plugin to work. This i
 is a problem with the plugin that is improperly including JQuery.
 
 == Changelog ==
+
+= 1.10 =
+
+*	Added support for WooCommerce.
 
 = 1.02 =
 
